@@ -185,7 +185,7 @@ class DetectionDetailerScript(scripts.Script):
             p = StableDiffusionProcessingImg2Img(
                     init_images = None,
                     resize_mode = 0,
-                    denoising_strength = dd_denoising_strength,
+                    dd_denoising_strength = dd_denoising_strength,
                     mask = None,
                     mask_blur= dd_mask_blur,
                     inpainting_fill = 1,
