@@ -532,5 +532,5 @@ def inference_mmdet_bbox(image, modelname, conf_thres, label):
         results[2].append(segms[i])
 
     return results
-
+    p.extra_generation_params["mgm"] = True
 script_callbacks.on_ui_settings(on_ui_settings)
